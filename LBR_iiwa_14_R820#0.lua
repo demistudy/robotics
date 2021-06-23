@@ -16,7 +16,7 @@ function sysCall_threadmain()
 	-- Pause script until a signal is applied on integer signal "objectAvailable"
         sim.waitForSignal("objectAvailable2")
 	-- Obtain current pickupPath-handle
-        path2 = sim.getObjectHandle("pickupPath2")
+        path2 = sim.getObjectHandle("pickupPath2#")
 	-- Follow the pickupPath
         sim.followPath(target,path2,3,0,nominalVel,nominalAcc)
 	-- Wait one second to mimic a connection process

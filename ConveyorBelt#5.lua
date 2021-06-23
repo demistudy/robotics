@@ -196,7 +196,7 @@ end
 
 function updatePickupPath2(dummy)
     -- Obtain handle to last pickupPath
-    local path2 = sim.getObjectHandle("pickupPath2")
+    local path2 = sim.getObjectHandle("pickupPath2#")
     -- Remove the path
     sim.removeObject(path2)
     -- Obtain position of dummy to be reached
